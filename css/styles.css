@@ -11,7 +11,15 @@
 }
 #gameScreen {
   display: none;
+  background-color: red;
 }
+.opacityFilter {
+opacity: 0.5;
+}
+/* #playerCard{
+  float: right;
+} */
+
 body {
   background-image: url("https://i.pinimg.com/originals/8a/10/92/8a10926e5edd4273c7b074ee6489d3e6.jpg");
   background-repeat: no-repeat;
@@ -26,4 +34,22 @@ img.icon {
 img.iconAlter {
   height: 35px;
   width:  35px;
+}
+img.player {
+height: 700px;
+width: 350px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-right: 15px;
+padding-left: 15px;
+
+}
+img.opponent {
+  height: 700px;
+  width: 850px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+
 }

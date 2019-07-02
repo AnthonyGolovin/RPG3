@@ -9,7 +9,7 @@ var characterStartingStats;
 
 //Objects
 //export
-export function RealPlayer(strength, constitution, agility, magic) {
+ function RealPlayer(strength, constitution, agility, magic) {
 
   this.strength = strength,
   this.constitution = constitution,
@@ -47,6 +47,6 @@ console.log(statCheck);
   console.log(statCheck);
   $("#gameStart").click(function() {
 
-    $("#gamescreen").fadeIn();
+    $("#gameScreen").fadeIn();
   });
 });
