@@ -42,7 +42,6 @@ padding-top: 15px;
 padding-bottom: 15px;
 padding-right: 15px;
 padding-left: 15px;
-
 }
 img.opponent {
   height: 700px;
@@ -51,5 +50,8 @@ img.opponent {
   padding-bottom: 15px;
   padding-right: 15px;
   padding-left: 15px;
-
+}
+img.spell{
+  height: 50px;
+  width:  50px;
 }
